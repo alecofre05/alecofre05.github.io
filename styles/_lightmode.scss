@@ -1,0 +1,1010 @@
+.lightmode .title {
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    height: 23px;
+    width: 1438px;
+}
+
+.lightmode .title h1 {
+    font-family: 'ChakraPetch-Regular';
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+.lightmode .contLogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lightmode .contLogo img {
+    margin-left: 91px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.lightmode .opciones { 
+    padding-right: 140.5px;
+}
+
+.opcionesFlex {
+    display: flex;
+}
+
+.lightmode .button1 {
+    height: 36px;
+    width: 144px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    margin-right: 16px;
+    text-decoration: none;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+.lightmode .button1:hover {
+    background: #E6BBE2;
+    border: 1px dotted #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.lightmode .button2 {
+    height: 36px;
+    width: 131px;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.lightmode .button2:hover {
+    background: #E6BBE2;
+    border: 1px dotted #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.lightmode .button3 {
+    height: 36px;
+    width: 36px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; 
+    font-family: 'Chakra Petch', sans-serif;
+    margin-left: -5px;
+    margin-right: 16.5px;
+    padding-top: 1px;
+}
+
+.lightmode .button3:hover {
+    background: #E6BBE2;
+    border: 1px dotted #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.lightmode .button4 {
+    border: 0;
+    background-color: white;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 18px;
+    padding: 1px 6px 1px 1px;
+}
+
+.lightmode .button4 a {
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+
+.lightmode .button4:hover {
+    border: 1px dotted #110038;
+}
+
+.lightmode .button4:active {
+    color: lightgray; 
+}
+
+.lightmode #menuDesp {
+    width: 170px;
+    height: 102px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    margin-left: 161px;
+    display: none;
+}
+
+.lightmode #menuDesp #light{
+    background: #FFF4FD;
+    border: 1px solid #CCA6C9;
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    width: 150px;
+    height: 36px;
+    margin: 10px;
+}
+
+.lightmode #menuDesp #dark{
+    background: #FFF4FD;
+    border: 1px solid #CCA6C9;
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    width: 150px;
+    height: 36px;
+    margin-left: 10px;
+}
+
+.lightmode .underline {
+	border-bottom: 1px solid;
+}
+
+.lightmode .opciones {
+    padding-top: 44px;
+}
+
+.lightmode .barraBuscadora {
+    height: 99px;
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 16px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.lightmode .textoBarra {
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+.lightmode .textoBarra p {
+    font-family: "ChakraPetch-Bold";
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding: 3px;
+}
+
+.lightmode .contBusc {
+    display: flex;
+}
+
+.lightmode .buscador {
+    padding-left: 15px;
+    padding-top: 12px;
+}
+
+.lightmode .buscador input{
+    height: 48px;
+    width: 1057px;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #B4B4B4;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-left: 16px;
+}
+
+.lightmode .btnSearch {
+    padding-top: 18px;
+    padding-left: 8px;
+}
+
+.lightmode .lupa {
+    height: 16px;
+    width: 16px;
+}
+
+.lightmode .btnSearch button {
+    height: 36px;
+    width: 102px;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #B4B4B4;
+    letter-spacing: 0;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: center;
+    padding-top: 7px;
+}
+
+.lightmode .btnSearch button:hover {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 18px;
+    border: 1px dotted black;
+}
+
+.lightmode .btnSearch p {
+    padding-left: 5px;
+}
+
+.lightmode .resultados { 
+    height: 166px;
+    width: 1200px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    margin-left: 100px;
+}
+
+.oculto {
+    display: none;
+}
+
+.lightmode .resultados div {
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.lightmode .resultBusq {
+    padding-left: 16px;
+    padding-top: 17px;
+    height: 34px;
+    width: 1055px;
+}
+
+.lightmode .resultBusq2 {
+    padding-left: 16px;
+    padding-top: 11px;
+    height: 36px;
+    width: 1057px;
+}
+
+.lightmode .resultBusq3 {
+    padding-left: 16px;
+    padding-top: 10px;
+    height: 36px;
+    width: 1057px;
+}
+
+.lightmode .resultUnic {
+    border: 1px solid #110038;
+    font-family: 'Chakra Petch';
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-top: 6px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.lightmode .resultSimilar { 
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    padding-top: 7px;
+    padding-left: 16px;
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.lightmode .resultOtros { 
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    padding-top: 7px;
+    padding-left: 16px;
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.lightmode .tituloSugerencias {
+    height: 32px;
+    width: 1200px;
+    padding-left: 100px;
+    padding-top: 64px;
+}
+
+.lightmode .tituloSugerencias h2 {
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    font-family: "ChakraPetch";
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+    padding: 7px;
+}
+
+.lightmode .sugerencias { 
+    display: flex;
+    padding-left: 100px;
+    padding-top: 16px;
+}
+
+.lightmode .sugerencias .contenedorDiv1 {
+    display: flex;
+    flex-direction: column;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    width: 288px;
+    height: 313px;
+    margin-right: 16px;
+}
+
+.lightmode .sugerencias .botonDiv img {
+    width: 275px;
+    height: 276px;
+}
+
+.lightmode .contenedorDiv1:hover {
+    border: 1px dotted #110038;
+}
+
+.lightmode .tituloDiv { 
+    display: flex;
+    width: 280px;
+    height: 24px;
+    justify-content: space-between;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    margin: 4px 3px 4px;
+}
+
+.lightmode .tituloDiv p {
+    font-family: "ChakraPetch-Bold";
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-top: 4px; 
+    margin-left: 5px;
+}
+
+.lightmode .tituloDiv img { 
+    padding-right: 4px;
+}
+
+.lightmode .botonDiv {
+    padding-left: 7px; 
+}
+
+.lightmode .botonDiv button{
+    background: #4180F6;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+    font-family: "ChakraPetch-Regular";
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    padding: 10px 8px 10px 8px;
+    bottom: 50px;
+    left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.lightmode .botonDiv button:hover{
+    background: #3A72DB;
+    border: 1px dotted #110038;
+}
+
+.lightmode .tituloTendencias {
+    height: 32px;
+    width: 1200px;
+    padding-left: 100px;
+    padding-top: 64px;
+}
+
+.lightmode .tituloTendencias h2 {
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    font-family: "ChakraPetch";
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+    padding: 7px;
+}
+
+.lightmode #tendencias {
+    display: grid;
+    grid-template-columns: 294px 288px 288px 288px; 
+    grid-template-rows: 304px 298px 300px;
+    grid-template-areas:
+    "uno dos tres cuatro"
+    "cinco cinco seis siete"
+    "ocho nueve diez diez";
+    grid-gap: 16px;
+    padding-left: 100px;
+    padding-top: 17px;
+}
+
+.lightmode #tendencias .uno {
+    grid-area: uno;
+}
+
+.lightmode #tendencias .uno img {
+    width: 294px;
+    height: 304px;
+}
+
+.lightmode #tendencias .dos {
+    grid-area: dos;
+}
+
+.lightmode #tendencias .dos img {
+    width: 288px;
+    height: 304px;
+}
+
+.lightmode #tendencias .tres {
+    grid-area: tres;
+}
+
+.lightmode #tendencias .tres img {
+    width: 288px;
+    height: 304px;
+}
+
+.lightmode #tendencias .cuatro {
+    grid-area: cuatro;
+}
+
+.lightmode #tendencias .cuatro img {
+    width: 283px;
+    height: 304px;
+}
+
+.lightmode #tendencias .cinco {
+    grid-area: cinco;
+}
+
+.lightmode #tendencias .cinco img {
+    width: 600px;
+    height: 298px;
+}
+
+.lightmode #tendencias .seis {
+    grid-area: seis;
+}
+
+.lightmode #tendencias .seis img {
+    width: 288px;
+    height: 298px;
+}
+
+.lightmode #tendencias .siete {
+    grid-area: siete;
+}
+
+.lightmode #tendencias .siete img {
+    width: 283px;
+    height: 298px;
+}
+
+.lightmode #tendencias .ocho {
+    grid-area: ocho;
+}
+
+.lightmode #tendencias .ocho img {
+    width: 294px;
+    height: 300px;
+}
+
+.lightmode #tendencias .nueve {
+    grid-area: nueve;
+}
+
+.lightmode #tendencias .nueve img {
+    width: 290px;
+    height: 300px;
+}
+
+.lightmode #tendencias .diez {
+    grid-area: diez;
+}
+
+.lightmode #tendencias .diez img {
+    width: 589px;
+    height: 298px;
+}
+
+.lightmode .divBusqueda img {
+    width: 290px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+//Comienza el estilado de load//
+
+.tituloMisGuifos {
+    height: 32px;
+    width: 1200px;
+    padding-left: 100px;
+    padding-top: 64px;
+}
+
+.lightmode .tituloMisGuifos h2 {
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    font-family: "ChakraPetch";
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+    padding: 7px;
+}
+
+
+//Carga// 
+#contenedorCarga {
+    width: 684px;
+    height: 386px;
+    margin-left: 378px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: none;
+    margin-top: 78px;
+}
+
+.lightmode .tituloCarga {
+    height: 24px;
+    letter-spacing: 0;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+.lightmode .tituloCarga h2{
+    font-family: "ChakraPetch-Bold";
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 4px;
+    padding-top: 6.4px;
+}
+
+.interno {
+    display: flex;
+}
+
+.interno img {
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+.interno h2 {
+    font-family: "ChakraPetch-Bold";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-top: 30px;
+    padding-left: 16px;
+}
+
+#contenedorCarga .textoInterno {
+    font-family: "ChakraPetch-Regular";
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 20px;
+    height: 190px;
+    width: 518px;
+    padding-left: 73px;
+    padding-top: 17px;
+}
+
+#contenedorCarga .textoInterno li {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.botonesInternos {
+    margin-left: 344px;
+    margin-top: 28px;
+    display: flex;
+}
+
+.botonesInternos button {
+    width: 144px;
+    height: 36px;
+}
+
+.lightmode #botonUnoInterno{
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    margin-right: 16px;
+    width: 144px;
+    height: 36px;
+}
+
+.lightmode #botonUnoInterno a{
+    text-decoration: none;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    position: relative;
+    top: 7px;
+}   
+    
+.lightmode #botonDosInterno {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+
+//Chequeo//
+.contenedorChequeo {
+    width: 860px;
+    height: 548px;
+    margin-left: 265px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: none;
+}
+
+.tituloChequeo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloChequeo h2 {
+    font-family: "ChakraPetch-Bold";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.tituloChequeo img {
+    padding-right: 10px;
+}
+
+.lightmode .tituloChequeo {
+    height: 24px;
+    letter-spacing: 0;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+.lightmode .tituloChequeo h2{
+    font-family: "ChakraPetch-Bold";
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 4px;
+    padding-top: 3.4px;
+}
+
+.gifInterno {
+    margin-left: 11px;
+    margin-top: 11px;
+    display: block;
+}
+
+.botonesChequeo {
+    margin-left: 663px;
+    margin-top: 28px;
+}
+
+.lightmode #botonFoto {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 36px;
+    height: 36px;
+}
+
+.lightmode #botonFotoDos {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 144px;
+    height: 36px;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    margin-left: -5px;
+    position: relative;
+    top: -1px;
+}
+
+#botonesListo {
+    margin-left: 663px;
+    margin-top: 28px;
+    display: flex;
+}
+
+#botonesListoOculto {
+    display: none;
+}
+
+.lightmode #botonListo {
+    background: #ff6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 36px;
+    height: 36px;
+}
+
+.lightmode #botonFotoListo {
+    background: #ff6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 144px;
+    height: 36px;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 18px;
+    position: relative;
+}
+
+#gif_preview {
+    display: none;
+    padding-top: 11px;
+    padding-left: 11px;
+}
+
+#botonesConfirmaryRepetir {
+    margin-left: 542px;
+    margin-top: 28px;
+}
+
+#botonesConfirmar {
+    display: flex;
+}
+
+.lightmode #botonRepetir {
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 144px;
+    height: 36px;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 14px;
+}
+
+.lightmode #botonSubir {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 144px;
+    height: 36px;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+.contenedorPreview {
+    width: 860px;
+    height: 548px;
+    margin-left: 265px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: none;
+}
+
+.gifCreado {
+    padding-left: 100px;
+    padding-top: 16px;
+}
+
+.tiempo {
+    font-family: "ChakraPetch-Regular";
+    font-size: 12px;
+    color: rgba(17,0,56,0.64);
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 14px;
+}
+
+#contenedorSubiendo {
+    width: 854px;
+    height: 548px;
+    margin-left: 265px;
+    margin-top: 88px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: none;
+}
+
+.contenedorInterno {
+    background: white;
+    width: 838px;
+    height: 440px;
+    margin: 8px;
+    border: black;
+    border: 1px solid black;
+}
+
+.subiendo {
+    font-family: "ChakraPetch-Bold";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+}
+
+.mundo { 
+    padding-left: 406px;
+    padding-top: 174px;
+}
+
+#contenedorCancelar {
+    margin-left: 702px;
+    margin-top: 21px;
+}
+
+#botonCancelar {
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 144px;
+    height: 36px;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+.progressBar {
+    display: flex;
+    align-items: center;
+    width: 324px;
+    height: 24px;
+    background: #b4b4b4;
+    margin-left: 257px;
+    margin-top: 39px;
+    visibility: hidden;
+}
+
+.progressBarPart {
+    margin-right: 2px;
+    width: 12px;
+    height: 20px;
+    background-color: #999999;
+}
+
+.progressBarPartEnabled {
+    background-color: #f7c9f3;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.contenedorFinal {
+    width: 715px;
+    height: 391px;
+    margin-left: 360px;
+    margin-top: 85px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: none;
+}
+
+.contenedorAdentro {
+    display: flex;
+}
+
+.contAdentro {
+    display: inline;
+}
+
+.contAdentro p {
+    font-family: "ChakraPetch-Bold";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-top: 76px;
+}
+
+#botonAdentro1 {
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 256px;
+    height: 36px;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    margin-top: 16px;
+}
+
+#botonAdentro2 {
+    margin-top: 14px;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 256px;
+    height: 36px;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+#otroGif {
+    width: 365px;
+    height: 191px;
+    padding-right: 20px;
+    margin-left: -70px;
+}
+
+#ultimoBoton {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    font-family: "ChakraPetch-Regular";
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    width: 144px;
+    height: 36px;
+    margin-top: 44px;
+    margin-left: 531px;
+}
+  
+
