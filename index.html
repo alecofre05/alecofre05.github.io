@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>gifOS</title>
+</head>
+<body class="lightmode">
+    <div>
+        <header>
+            <div class="title">
+                <h1>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</h1>
+            </div>
+        </header>
+
+        <div>
+            <div class="contLogo">
+                <div>
+                    <img src="assets/gifOF_logo.png" alt="logo de gifOS" class="logo">
+                </div>
+
+                <div class="opciones">
+                    <div class="opcionesFlex">
+                        <a href="load.html" class="button1">Crear Guifos</a>
+                        <button class="button2">Elegir tema</button>
+                        <button id="botonMenu" class="button3"><i class="fas fa-caret-down"></i></button>
+                        <div class="button4">
+                            <a href="load.html">
+                                <span class="underline">M</span>is Guifos
+                            </a>
+                        </div>
+                    </div>    
+                    <div id="menuDesp">
+                        <button id="light">
+                            <span class="underline">S</span>ailor Day
+                        </button>
+                        <button id="dark">Sailor Night</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="barraBuscadora">
+                <div class="textoBarra">
+                    <p>Buscar</p>
+                </div>
+
+                <div class="contBusc">
+                    <div class="buscador">
+                        <input type="search" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…" size="50" id="buscarPalabra">
+                    </div>
+                    <div class="btnSearch">
+                        <button type="submit" id="btnBuscar"><img src="assets/lupa_inactive.svg" alt="lupa desactivada" class="lupa">Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section>
+            <div class="resultados oculto">
+                <div class="resultBusq"><h2 class="resultUnic" data-search="Musica">Te seguerimos música</h2></div>
+                <div class="resultBusq2"><h2 class="resultSimilar" data-search="Deportes">También sugerimos deportes</h2></div>
+                <div class="resultBusq3"><h2 class="resultOtros" data-search="Tecnologia">Te puede interesar tecnología</h2></div>
+            </div>
+        </section>
+    
+        <section>
+                <div class="tituloSugerencias">
+                    <h2>Hoy te sugerimos:</h2>
+                </div>
+
+                <div class="sugerencias" id="suge"></div>
+            
+        </section>
+        
+
+
+
+        <section>
+                <div class="tituloTendencias">
+                    <h2>Tendencias:</h2>
+                </div>
+
+        <div id="tendencias"></div>
+                
+        </section>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
